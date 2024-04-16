@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url("./Images/space\ photo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .top-color{
+            color: white;
+            padding-left: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #top{
+            margin-left: 1100px;
+            margin-top: 20px;
+        }
+        i{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        h1{
+            color: white;
+            font-size: 80px;
+            margin-left: 550px;
+            margin-top: 120px;
+        }
+        input{
+            width: 500px;
+            height: 40px;
+            border-radius: 25px;
+            margin-left: 400px;
+            margin-top: 45px;
+            padding-left: 50px;
+
+        }
+        .search{
+            position: absolute;
+            top: 310px;
+            left: 410px;
+        }
+        .mic{
+            position: absolute;
+            top: 310px;
+            left: 850px;
+        }
+        .camera{
+            position: absolute;
+            top: 310px;
+            left: 890px;
+        }
+        #shortcut{
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border-radius: 50%;
+            margin-left: 660px;
+            margin-top: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <a href="#" class="top-color">Gmail</a>
+        <a href="#" class="top-color">Images</a>
+        <i class="fa-solid fa-flask top-color"></i>
+        <i class="fa-solid fa-bars top-color"></i>
+        <i class="fa-solid fa-user top-color"></i>
+
+    </div>
+    <div id="middle">
+        <h1>Google</h1>
+        <input type="text" placeholder="Search Google or type a URL">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+        <i class="fa-solid fa-microphone mic"></i>
+        <i class="fa-solid fa-camera camera"></i>
+        <div id="shortcut"></div>
+    </div>
+    <div id="bottom"></div>
+</body>
+</html>
